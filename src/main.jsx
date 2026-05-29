@@ -17,7 +17,7 @@ const STORAGE_BUCKET = import.meta.env.VITE_SUPABASE_BUCKET || 'documents'
 
 const defaultClasses = ['6ème','5ème','4ème','3ème','2nde','1ère','Terminale']
 const defaultDossiers = ['Bulletin dernier trimestre','copie de naissance','Photo d’identité','Certificat de scolarite','Fiche de renseignement','Quitus ou reçu de paiement pour la réinscription']
-const initialContact = { telephone:'+261 00 000 00', email:'lyceesaintpaul@example.com', adresse:'Morondava - Madagascar', facebook:'Lycée Catholique Saint Paul Morondava' }
+const initialContact = { telephone:'+261 38 19 296 64', email:'andrilucteo@gmail.com', adresse:'Morondava - Madagascar', facebook:'Lycée Catholique Saint Paul Morondava' }
 const initialSettings = { annee_scolaire:'2025-2026', inscription_ouverte:true, message_accueil:'Bienvenue sur la plateforme officielle d’inscription du Lycée Catholique Saint Paul Morondava.' }
 const initialForm = { type_inscription:'nouvelle', nom:'', prenoms:'', date_naissance:'', lieu_naissance:'', sexe:'', nationalite:'Malagasy', adresse:'', telephone:'', email:'', classe_demandee:'', ancienne_classe:'', regime:'Externe', responsable_nom:'', responsable_tel:'', profession:'', observation:'', fichier_url:'', fichier_nom:'' }
 
